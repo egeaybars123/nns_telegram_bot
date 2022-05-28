@@ -78,21 +78,21 @@ def format_message(listp):
         
 
 PATH = "C:\Program Files (x86)\chromedriver.exe"
-API_KEY = "5390586050:AAEOYLrgHbm5wnOVhr8kbHWlTS1ujbn11zc"
+API_KEY = "TELEGRAM_API_KEY"
 CHAT_ID = "@icp_proposal_bot"
-DROPBOX_REFRESH_TOKEN = "7mbzYfrj5lQAAAAAAAAAAdWoQ2FgrJhsFxIQJpMZ8X1E3xpyQ9ID6Q14ZHqr6GYc"
-app_key = 't8yg7q4cprvxcen'
-app_secret = 'tn0m16ya9ru241v'
+DROPBOX_REFRESH_TOKEN = "<REFRESH_TOKEN"
+app_key = 'APP_KEY'
+app_secret = 'APP_SECRET'
 wait_xpath = '//*[@id="root"]/div/div[4]/div/div[4]/div/div[2]/div/div/div/div/div[1]/div[2]/div/div[1]/table/tbody/tr[10]'
 xpath = '//*[@id="root"]/div/div[4]/div/div[4]/div/div[2]/div/div/div/div/div[1]/div[2]/div/div[1]/table'
 
-f = requests.post("https://api.dropbox.com/oauth2/token\?grant_type=refresh_token&refresh_token=7mbzYfrj5lQAAAAAAAAAAdWoQ2FgrJhsFxIQJpMZ8X1E3xpyQ9ID6Q14ZHqr6GYc",
+f = requests.post("https://api.dropbox.com/oauth2/token\?grant_type=refresh_token&refresh_token=<REFRESH_TOKEN>",
                   auth=(app_key, app_secret))
 TEMP_ACCESS = f.json()['access_token']
 
-"""
+
 download_dropbox('/proposals.txt', 'proposals.txt')
-"""
+
 previous_list_proposals = read_previous_proposals()
 current_list_proposals = []
 
