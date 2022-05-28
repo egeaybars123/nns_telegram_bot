@@ -1,0 +1,10 @@
+62293 Phase 5///Open///19’104’439
+62159 Update configuration of subnet: fuqsr///Executed///405’956’885
+62143 Elect new replica binary revision (commit 5b2647754d0c2200b645d08a6ddce32251438ed5)///Open///6’692’449
+62140 5.25-test///Open///95’755’634
+62139 Phase 4///Open///107’129’857
+62009 phase 3 donation///Open///179’316’671
+62006 5.26-test///Open///175’275’920
+61899 Upgrade Nns Canister: rrkah-fqaaa-aaaaa-aaaaq-cai to wasm with hash: 81006bf95d8168d2be1d54f7c8e9848648d0a48a2e21929615898299d6fce5ef///Executed///405’934’675
+61859 Upgrade Nns Canister: qoctq-giaaa-aaaaa-aaaea-cai to wasm with hash: b20e53f893875f58adfb526b3959f984b471738d74e41effb64582a0f6a7911e///Executed///405’870’382
+61858 Upgrade Nns Canister: qoctq-giaaa-aaaaa-aaaea-cai to wasm with hash: b20e53f893875f58adfb526b3959f984b471738d74e41effb64582a0f6a7911e///Executed///405’870’382
